@@ -4,6 +4,7 @@ pr:
   branches:
     include:
       - main
+
 trigger:
   branches:
     include:
@@ -12,8 +13,9 @@ trigger:
 jobs:
 - job: build_and_deploy_job
   displayName: Build and Deploy Job
-  condition: or(eq(variables['Build.Reason'], 'Manual'),or(eq(variables['Build.Reason'], 'PullRequest'),eq(variables['Build.Reason'], 'IndividualCI')))
-  pool: webapp
+  condition: or(eq(variables['Build.Reason'], 'Manual'), or(eq(variables['Build.Reason'], 'PullRequest'), eq(variables['Build.Reason'], 'IndividualCI')))
+  pool:
+    vmImage: ubuntu-latest  # Changed from 'webapp' to 'ubuntu-latest'
   variables:
   - group: Azure-Static-Web-Apps-kind-meadow-04d3d890f-variable-group
   steps:
@@ -28,4 +30,3 @@ jobs:
       api_location: "" # Api source code path - optional
       output_location: "/" # Built app content directory - optional
 ###### End of Repository/Build Configurations ######
-
