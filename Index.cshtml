@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Webapp_July.Models.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h1>Product List</h1>
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>@product.Name</li>
+        }
+    </ul>
+</body>
+</html>
