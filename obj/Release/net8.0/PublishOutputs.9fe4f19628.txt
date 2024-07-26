@@ -1,0 +1,7 @@
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\Webapp-July.exe
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\appsettings.json
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\Webapp-July.dll
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\Webapp-July.deps.json
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\Webapp-July.runtimeconfig.json
+C:\Users\Sindhu.Ilango\Documents\Webapp-July\bin\Release\net8.0\publish\Webapp-July.pdb
